@@ -64,6 +64,8 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_LIST_ITEM_LIMIT: ${{ secrets.CLOUDFLARE_LIST_ITEM_LIMIT }}
           FAST_MODE: ${{ vars.FAST_MODE }}
+          fast_mode 
+          
 
       - name: Send ping request
         if: env.PING_URL != ''
