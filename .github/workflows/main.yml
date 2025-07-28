@@ -73,3 +73,5 @@ jobs:
         env:
           PING_URL: ${{ secrets.PING_URL }}
 
+          \\test
+          
